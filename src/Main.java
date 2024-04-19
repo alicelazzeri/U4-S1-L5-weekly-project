@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        // importazione dello scanner per ricevere input
+
         Scanner scanner = new Scanner(System.in);
 
         // inizializzazione dell'array di tipo ElementoMultimediale
