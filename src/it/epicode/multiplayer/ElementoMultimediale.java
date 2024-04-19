@@ -35,8 +35,15 @@ public abstract class ElementoMultimediale {
     public void setTitolo(String titolo) {
         this.titolo = titolo;
     }
+
+    // Verifica del valore positivo della durata
+
     public void setDurata(int durata) {
-        this.durata = durata;
+        if (durata > 0) {
+            this.durata = durata;
+        } else {
+            System.out.println("La durata inserita non è valida. Inserisci un valore positivo");
+        }
     }
 
 
