@@ -52,13 +52,13 @@ public class RegistrazioneAudio extends ElementoMultimediale implements PuoEsser
     @Override
     public void play() {
         System.out.println("Titolo della registrazione: " + getTitolo());
-        System.out.println("Durata della registrazione: " + durata);
+        System.out.println("Durata della registrazione: " + durata + " minuti");
 
         // Ripetizione della stringa concatenata per il valore della durata
 
         for (int i = 0; i < durata; i++) {
-            String ripetizioneEsclamativi = "!".repeat(volume); // esclamativi ripetuti per ìil valore del volume
-            System.out.println(getTitolo() + ripetizioneEsclamativi);
+            String ripetizioneEsclamativi = "!".repeat(volume); // esclamativi ripetuti per il valore del volume
+            System.out.println(getTitolo()+ ripetizioneEsclamativi);
         }
     }
 

@@ -55,6 +55,10 @@ public class Immagine extends ElementoMultimediale implements RegolaLuminosita, 
 
     }
 
+    // dato che abbiamo a che fare in ogni caso con degli oggetti multimediali, viene importata anche l'interfaccia
+    // PuoEssereRiprodotto e in questo caso viene differenziata rispetto alle occorrenze di RegistrazioneAudio e Video
+    // modificandone le istruzioni con la funzione show(), propria di Immagine
+
     @Override
     public void play() {
         show();

@@ -28,7 +28,7 @@ public class Video extends ElementoMultimediale implements PuoEssereRiprodotto, 
         super(titolo, durataVideo);
         this.durata = durataVideo;
         this.volume = volume;
-        this.luminosita = this.luminosita;
+        this.luminosita = luminosita;
     }
 
     // Getter e setter per la variabile luminosità
@@ -80,7 +80,7 @@ public class Video extends ElementoMultimediale implements PuoEssereRiprodotto, 
     @Override
     public void play() {
         System.out.println("Titolo del video: " + getTitolo());
-        System.out.println("Durata del video: " + durata);
+        System.out.println("Durata del video: " + durata + " minuti");
 
         // Ripetizione della stringa concatenata per il valore della durata
 

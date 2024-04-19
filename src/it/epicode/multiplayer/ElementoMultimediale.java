@@ -47,4 +47,7 @@ public abstract class ElementoMultimediale {
     }
 
 
+    public void play() {
+
+    }
 }
