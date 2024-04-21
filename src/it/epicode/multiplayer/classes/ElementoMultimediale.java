@@ -1,4 +1,4 @@
-package it.epicode.multiplayer;
+package it.epicode.multiplayer.classes;
 
 public abstract class ElementoMultimediale {
     private String titolo;

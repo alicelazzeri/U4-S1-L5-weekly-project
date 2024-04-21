@@ -1,6 +1,9 @@
-package it.epicode.multiplayer;
+package it.epicode.multiplayer.classes;
 
-public class RegistrazioneAudio extends ElementoMultimediale implements PuoEssereRiprodotto, RegolaVolume  {
+import it.epicode.multiplayer.interfaces.PuoEssereRiprodotto;
+import it.epicode.multiplayer.interfaces.RegolaVolume;
+
+public class RegistrazioneAudio extends ElementoMultimediale implements PuoEssereRiprodotto, RegolaVolume {
 
     // Dichiarazione di una variabile interna di RegistrazioneAudio per definire la singola durata dell'audio, che sarà diversa da quella del video
 

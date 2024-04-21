@@ -1,4 +1,8 @@
-package it.epicode.multiplayer;
+package it.epicode.multiplayer.classes;
+
+import it.epicode.multiplayer.interfaces.PuoEssereRiprodotto;
+import it.epicode.multiplayer.interfaces.RegolaLuminosita;
+import it.epicode.multiplayer.interfaces.RegolaVolume;
 
 public class Video extends ElementoMultimediale implements PuoEssereRiprodotto, RegolaVolume, RegolaLuminosita {
 

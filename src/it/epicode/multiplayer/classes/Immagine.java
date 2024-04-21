@@ -1,4 +1,7 @@
-package it.epicode.multiplayer;
+package it.epicode.multiplayer.classes;
+
+import it.epicode.multiplayer.interfaces.PuoEssereRiprodotto;
+import it.epicode.multiplayer.interfaces.RegolaLuminosita;
 
 public class Immagine extends ElementoMultimediale implements RegolaLuminosita, PuoEssereRiprodotto {
     private int luminosita;

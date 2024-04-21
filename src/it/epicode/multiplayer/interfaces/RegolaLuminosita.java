@@ -1,4 +1,4 @@
-package it.epicode.multiplayer;
+package it.epicode.multiplayer.interfaces;
 
 public interface RegolaLuminosita {
     void alzaLuminosita();

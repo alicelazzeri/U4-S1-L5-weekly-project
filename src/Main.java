@@ -1,4 +1,8 @@
-import it.epicode.multiplayer.*;
+import it.epicode.multiplayer.classes.ElementoMultimediale;
+import it.epicode.multiplayer.classes.Immagine;
+import it.epicode.multiplayer.classes.RegistrazioneAudio;
+import it.epicode.multiplayer.classes.Video;
+import it.epicode.multiplayer.interfaces.PuoEssereRiprodotto;
 
 import java.util.Scanner;
 
@@ -64,7 +68,9 @@ public class Main {
             }
         }
 
-        // Inizializzazione della scelta dell'oggetto a valore negativo, così che non coinvolga i valori a partire da 0
+        // Una volta composto l'oggetto sulla base delle specifiche di tipo, titolo, durata, luminosità e volume,
+        // inizializzazione della scelta dell'oggetto completo da mandare a schermo
+        // con valore negativo, così che non coinvolga i valori a partire da 0 che sono rilevanti per la scelta
 
         int scelta = -1;
 
